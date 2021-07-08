@@ -1,0 +1,19 @@
+.header{
+    background: #1C2C35;
+    color: #ECF8FF;
+}
+.header\.name{
+    font-size: 18px;
+    font-weight: bold;
+}
+.header\.section{
+    font-size: 16px;
+    font-weight: normal;
+}
+.header\.contact{
+    font-size: 16px;
+    font-weight: normal;
+    border-width: 2px;
+    border-color: #7CC9FF;
+
+}
