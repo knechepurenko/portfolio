@@ -1,6 +1,12 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .header{
     background: #1C2C35;
     color: #ECF8FF;
+    display: flex;
+    padding: 24px 254px;
 }
 .header\.name{
     font-size: 18px;
@@ -8,12 +14,28 @@
 }
 .header\.section{
     font-size: 16px;
-    font-weight: normal;
+    display: flex;
 }
-.header\.contact{
-    font-size: 16px;
+.header\.section\.block{
+    padding: 0px 20px;
+    text-align: center;
+}
+.header\.section\.block\.contact{
+    border: solid 2px  #7CC9FF;
+    padding: 5px;
+}
+.about{
+    background: #243B4A;
+    color: #ECF8FF;
+    padding: 68px 254px;
+}
+.about\.title{
+    font-size: 44px;
+    font-weight: bold;
+    color: #B0FBBC;
+}
+.about\.text{
+    font-size: 18px;
     font-weight: normal;
-    border-width: 2px;
-    border-color: #7CC9FF;
-
+    color: #ECF8FF;
 }
