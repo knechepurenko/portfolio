@@ -2,12 +2,20 @@
     margin: 0;
     padding: 0;
 }
-.header__body{
+.body-light{
+    background: #243B4A;
+    align-items: center;
+    padding: 50px 260px;
+}
+.body-dark{
     background: #1C2C35;
+    align-items: center;
+    padding: 50px 260px;
+}
+.header__body{
     color: #ECF8FF;
     display: flex;
     align-items: center;
-    padding: 50px 260px;
 }
 .header__name{
     font-size: 18px;
@@ -32,9 +40,7 @@
     margin: 0px 0px 0px 12px;
 }
 .about__body{
-    background: #243B4A;
-    align-items: center;
-    padding: 50px 260px;
+
 }
 .about__title{
     font-size: 44px;
