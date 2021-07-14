@@ -1,41 +1,60 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-.header{
+.header__body{
     background: #1C2C35;
     color: #ECF8FF;
     display: flex;
-    padding: 24px 254px;
+    align-items: center;
+    padding: 50px 260px;
 }
-.header\.name{
+.header__name{
     font-size: 18px;
     font-weight: bold;
+    min-width: 192px;
 }
-.header\.section{
+.header__menu{
     font-size: 16px;
+    font-weight: 600;
     display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin: 0px 0px 0px auto;
 }
-.header\.section\.block{
-    padding: 0px 20px;
-    text-align: center;
+.header__item{
+    margin: 0px 18px 0px 18px;
 }
-.header\.section\.block\.contact{
+.header__item__active{
     border: solid 2px  #7CC9FF;
-    padding: 5px;
+    border-radius: 6px;
+    padding: 4px;
+    margin: 0px 0px 0px 12px;
 }
-.about{
+.about__body{
     background: #243B4A;
-    color: #ECF8FF;
-    padding: 68px 254px;
+    align-items: center;
+    padding: 50px 260px;
 }
-.about\.title{
+.about__title{
     font-size: 44px;
     font-weight: bold;
     color: #B0FBBC;
+    min-width: 192px;
 }
-.about\.text{
+.about__text{
     font-size: 18px;
-    font-weight: normal;
+    font-weight: 600;
     color: #ECF8FF;
+}
+.education__body{
+    background: #1C2C35;
+    align-items: center;
+    padding: 50px 260px;
+}
+
+.projects__body{
+    background: #243B4A;
+    align-items: center;
+    padding: 50px 260px;
 }
