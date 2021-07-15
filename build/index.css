@@ -8,14 +8,30 @@
     padding: 50px 260px;
 }
 .body-dark{
-    background: #1C2C35;
+    background: #111A20;
     align-items: center;
     padding: 50px 260px;
+}
+.title{
+    font-size: 24px;
+    font-weight: bold;
+    color: #ECF8FF;
+}
+.rectangle-purple{
+    background: #CCA9F4;
+    border-radius: 1px;
+}
+.rectangle-green{
+    background: #81F59B;
+    border-radius: 1px;
+}
+.rectangle-red{
+    background: #D9534D;
+    border-radius: 1px;
 }
 .header__body{
     color: #ECF8FF;
     display: flex;
-    align-items: center;
 }
 .header__name{
     font-size: 18px;
@@ -24,10 +40,10 @@
 }
 .header__menu{
     font-size: 16px;
-    font-weight: 600;
+    font-weight: 500;
     display: flex;
-    justify-content: flex-end;
     align-items: center;
+    justify-content: flex-end;
     margin: 0px 0px 0px auto;
 }
 .header__item{
@@ -39,9 +55,6 @@
     padding: 4px;
     margin: 0px 0px 0px 12px;
 }
-.about__body{
-
-}
 .about__title{
     font-size: 44px;
     font-weight: bold;
@@ -50,17 +63,55 @@
 }
 .about__text{
     font-size: 18px;
-    font-weight: 600;
+    font-weight: 500;
     color: #ECF8FF;
 }
-.education__body{
-    background: #1C2C35;
-    align-items: center;
-    padding: 50px 260px;
+.skills__row{
+    display: flex;
 }
-
-.projects__body{
-    background: #243B4A;
+.item-skills{
+    background: #1C2C35;
+    display: flex;
     align-items: center;
-    padding: 50px 260px;
+    min-width: 140px;
+    margin: 0px 50px 10px 0px;
+    border-radius: 0px 8px 8px 0px;
+}
+.item-skills__rectangle{
+    height: 90px;
+    width: 3px;
+    min-width: 3px;
+}
+.item-skills__text{
+    font-size: 14px;
+    font-weight: 500;
+    text-align: center;
+    margin: 0px 60px 0px 60px;
+}
+.item-review{
+    background: #1C2C35;
+    display: flex;
+    align-items: center;
+    margin: 0px 50px 10px 0px;
+    border-radius: 0px 8px 8px 0px;
+}
+.item-review__rectangle{
+    height: 120px;
+    width: 3px;
+    min-width: 3px;
+}
+.item-review__text{
+    font-size: 30px;
+    font-weight: 500;
+    text-align: center;
+    margin: 0px 60px 0px 60px;
+}
+.item-review__title{
+    font-size: 24px;
+    font-weight: 500;
+    text-align: end;
+    margin: 0px 60px 0px 60px;
+}
+.item-review__photo{
+
 }
