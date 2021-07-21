@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: Jost;
 }
 .body-light{
     background: #243B4A;
@@ -67,20 +68,20 @@
     font-weight: 500;
     color: #ECF8FF;
 }
-.item-education{
+.education-item{
     display: flex;
     background: #1C2C35;
     border-radius: 0px 8px 8px 0px;
     align-items: center;
     max-width: 434px;
 }
-.item-education__rectangle{
+.education-item__rectangle{
     height: 52px;
     width: 5px;
     min-width: 5px;
     border-radius: 8px 0px 0px 8px;
 }
-.item-education__text{
+.education-item__text{
     font-size: 24px;
     font-weight: 500;
     color: #ECF8FF;
@@ -90,54 +91,41 @@
     display: flex;
     color: #7CC9FF;
 }
-.item-projects{
+.project-item{
     background: #1C2C35;
     display: flex;
     align-items: center;
     min-width: 140px;
     margin: 0px 50px 30px 0px;
-    border-radius: 0px 8px 8px 0px;
+    border-radius: 8px;
 }
-.item-projects__rectangle{
+.project-item__rectangle{
     height: 260px;
     width: 7px;
     min-width: 7px;
     border-radius: 8px 0px 0px 8px;
 }
-.item-projects__title{
+.project-item__title{
     color: #000000;
     font-size: 24px;
     font-weight: 500;
     margin: 0px 60px 0px 60px;
 }
-.item-projects__text{
+.project-item__text{
     color: #000000;
     font-size: 16px;
     font-weight: 500;
     margin: 0px 60px 0px 60px;
 
 }
-.item-projects__button{
+.project-item__button{
     border: solid 2px  #000000;
     border-radius: 6px;
     padding: 4px;
 }
-.item-projects__title__light{
+.mod-light{
+    border-color: #7CC9FF;
     color: #7CC9FF;
-    font-size: 24px;
-    font-weight: 500;
-    margin: 0px 60px 0px 60px;
-}
-.item-projects__text__light{
-    color: #7CC9FF;
-    font-size: 16px;
-    font-weight: 500;
-    margin: 0px 60px 0px 60px;
-}
-.item-projects__button__light{
-    border: solid 2px  #7CC9FF;
-    border-radius: 6px;
-    padding: 4px;
 }
 .blog__body{
     color: #ECF8FF;
@@ -174,7 +162,7 @@
 .skills__row{
     display: flex;
 }
-.item-skills{
+.skill-item{
     background: #1C2C35;
     display: flex;
     align-items: center;
@@ -182,45 +170,47 @@
     margin: 0px 50px 30px 0px;
     border-radius: 0px 8px 8px 0px;
 }
-.item-skills__rectangle{
+.skill-item__rectangle{
     height: 90px;
     width: 3px;
     min-width: 3px;
 }
-.item-skills__text{
+.skill-item__text{
     color: #ECF8FF;
     font-size: 30px;
     font-weight: 500;
     text-align: center;
     margin: 0px 60px 0px 60px;
 }
-.item-review{
+.review-item{
     background: #1C2C35;
-    display: flex;
     align-items: center;
     margin: 0px 50px 10px 0px;
     border-radius: 0px 8px 8px 0px;
     color: #ECF8FF;
 }
-.item-review__rectangle{
-    height: 155px;
-    width: 5px;
-    min-width: 5px;
-}
-.item-review__text{
+.review-item__rectangle{
+     height: 155px;
+     width: 5px;
+     min-width: 5px;
+ }
+.review-item__text{
     font-size: 14px;
     font-weight: 500;
     text-align: left;
     margin: 0px 60px 0px 60px;
 }
-.item-review__title{
+.review-item__subtitle{
     font-size: 24px;
     font-weight: 500;
     text-align: end;
     margin: 0px 60px 0px 60px;
 }
-.item-review__photo{
+.review-item__photo{
 
+}
+.contact-form__body{
+    text-align: center;
 }
 .contact-form__title{
     text-align: center;
@@ -228,16 +218,19 @@
     font-size: 44px;
     font-weight: 700;
 }
-.input-contact-form{
+.contact-input__form{
     background: #FBFCFD;
     border-radius: 10px;
     height: 40px;
     margin: 15px 0px 15px 0px;
 }
-.input-contact-form__higher{
+.contact-input-form__higher{
     height: 130px;
 }
-.input-contact-form__text{
+.contact-input-form__text{
+
+}
+.contact-input-form{
     color: #000000;
     font-size: 18px;
     font-weight: 400;
