@@ -356,24 +356,26 @@
                 </div>
             </div>
         </div>
-        <div class="contact-form">
-            <form class="contact-form__body body-light">
+        <div class="contact-form" >
+            <div class="contact-form__body body-light" >
                 <div class="contact-form__title">
                     Contact Me
                 </div>
-                <div class="contact-input-form">
-                    <input value="Name" class="contact-input-form__text">
-                </div>
-                <div class="contact-input-form">
-                    <input value="Email" class="contact-input-form__text">
-                </div>
-                <div class="contact-input-form contact-input-form__higher">
-                    <textarea class="contact-input-form__text">What you wanna say ?</textarea>
-                </div>
-                <button class="contact-form__button">
-                    Send Message
-                </button>
-            </form>
+                <form action="https://jsonplaceholder.typicode.com/todos/1" id="my-form">
+                    <div class="contact-input-form">
+                        <input value="Name" name="Name" class="contact-input-form__text">
+                    </div>
+                    <div class="contact-input-form">
+                        <input value="Email" name="Email" class="contact-input-form__text">
+                    </div>
+                    <div class="contact-input-form contact-input-form__higher">
+                        <textarea class="contact-input-form__text">What you wanna say ?</textarea>
+                    </div>
+                    <button type="submit" class="contact-form__button">
+                        Send Message
+                    </button>
+                </form>
+            </div>
         </div>
         <div class="contacts">
             <div class="contacts__body body-dark">
@@ -395,6 +397,6 @@
                 </div>
             </div>
         </div>
-        <script src="app.js"></script>
+        <script src='app.js'></script>
     </body>
 </html>
