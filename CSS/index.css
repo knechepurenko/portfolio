@@ -107,16 +107,16 @@
     border-radius: 8px;
 }
 .background1{
-    background-image: url("img/background1.png");
+    background-image: url("../img/background1.png");
     color: #000000;
 
 }
 .background2{
-    background-image: url("img/background2.png");
+    background-image: url("../img/background2.png");
     color: #C9E2F0;
 }
 .background3{
-    background-image: url("img/background3.png");
+    background-image: url("../img/background3.png");
     color: #C9E2F0;
     text-shadow: black 0px 0px 2px;
 }

@@ -1,9 +1,10 @@
 const form = document.querySelector('#my-form');
 form.addEventListener('submit', function (e){
     e.preventDefault()
-    console.log(e)
     const formData = new FormData(e.target)
-    fetch('https://jsonplaceholder.typicode.com/comments?postID=1')
+    fetch('https://jsonplaceholder.typicode.com/posts', {
+        method: 'post',
+    })
         .then(function (response ){
             return response.json();
         })
